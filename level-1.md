@@ -44,16 +44,14 @@ function isTallEnough(height) {
   return true;
 }
 ```
-See ^^this^^ in action:
-https://codepen.io/chancesmith/pen/JyGxdz?editors=1111
-Don't for get to open console (bottom left in Codepen)
+[See ^^this^^ in action in Codepen](https://codepen.io/chancesmith/pen/JyGxdz?editors=1111)
+Don't forget to open console, bottom left button in Codepen.
 
 Real world example where there are comments all the way down explaining what each code block does:
 https://github.com/chancesmith/quick-countdown/blob/master/js/main.js
 
 Bonus:
-Here is a guide for superb function comments:
-http://usejsdoc.org/about-getting-started.html
+Here is a [guide for superb function comments](http://usejsdoc.org/about-getting-started.html).
 
 ## Exercise #1
 Let's put this to practice in Cloud9
