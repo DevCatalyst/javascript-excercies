@@ -13,7 +13,7 @@ You'll need to be able to access these domains to walk-through these exercises.
 - [http://codepen.io](http://codepen.io)
 
 ## First time setup
-![clone repo and add to workspace](https://github.com/DevCatalyst/javascript-exercises/assets/images/readme/clone-js-exercise-repo.gif)
+![clone repo and add to workspace](https://github.com/DevCatalyst/javascript-exercises/blob/master/assets/images/readme/clone-js-exercise-repo.gif)
 
 1. fork this repo into your Github account
 1. copy the clone link of your forked version

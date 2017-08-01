@@ -19,7 +19,7 @@ There are three ways to talk to yourself in Javascript:
 - `/* multi-line comments */` or `// single-line comments`
 - `function addTwoNumbers(a, b){...}` - great function names
 
-Logs, comments, and function anmes give insight and context as to what is going on.
+Logs, comments, and function names give insight and context as to what is going on.
 
 Headsup:
 `console.log()` is a way to test your code in the momement. The logs should not stay in your code for very long.
@@ -27,10 +27,11 @@ Headsup:
 ## See it for your own eyes
 ```
 // verify height to ride roller coaster - 3ft +
-// height (number) - height in feet
+// @height (number) - height in feet
+// @return (boolean)
 // (found in theme park registraion modal form)
 function isTallEnough(height) {
-  if(!height || height == '' || height == undefined){
+  if(height == false || height == '' || height == undefined){
    console.log('height was not a valid answer')
    return false
   }
@@ -40,7 +41,7 @@ function isTallEnough(height) {
   }
   // user is tall enough, yay!
   console.log('Tell the customer to enjoy their ride!')
-  return
+  return true
 }
 ```
 See ^^this^^ in action:
@@ -51,5 +52,5 @@ Real world example where there are comments all the way down explaining what eac
 https://github.com/chancesmith/quick-countdown/blob/master/js/main.js
 
 ## Let's put this to practice in Cloud9
-- ***[clone or create]*** a repo in Github named "dc-javascript-level-1"
--
+- open you `exercises/exercise-1.js`
+- add a mix of 7 comments and console logs
