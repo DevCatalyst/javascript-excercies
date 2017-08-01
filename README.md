@@ -26,6 +26,7 @@ You'll need to be able to access these domains to walk-through these exercises.
 ![clone repo and add to workspace](https://github.com/DevCatalyst/javascript-exercises/blob/master/assets/images/readme/clone-js-exercise-repo.gif)
 
 1. fork this repo into your Github account
+1. ** turn on Github Pages on master branch **
 1. copy the clone link of your forked version
 1. create and name a new workspace in Cloud9 as `dc-javascript-exercises`
 1. past your clone link into the `Clone from Git` field
