@@ -24,4 +24,5 @@ function acceptDonation (amount) {
 }
 // WHAT HAPPENS HERE?
 let donation = acceptDonation(350)
+// this should always output '350'
 console.log(donation)
