@@ -25,7 +25,7 @@ Headsup:
 `console.log()` is a way to test your code in the momement. The logs should not stay in your code for very long.
 
 ## See it for your own eyes
-```
+```js
 // verify height to ride roller coaster - 3ft +
 // @height (number) - height in feet
 // @return (boolean)
