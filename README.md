@@ -16,8 +16,11 @@ This is how you add magic to your websites and applications.
 
 ## Resources needed:
 You'll need to be able to access these domains to walk-through these exercises.
+- [github.com](http://github.com)
 - [getbootstrap.com](http://getbootstrap.com)
 - [http://codepen.io](http://codepen.io)
+- [http://c9.io](http://c9.io)
+- [google.com](http://google.com)
 
 ## First time setup
 ![clone repo and add to workspace](https://github.com/DevCatalyst/javascript-exercises/blob/master/assets/images/readme/clone-js-exercise-repo.gif)
