@@ -1,7 +1,7 @@
 # Javascript 101 Exercises Introduction
 
 ## Grades
-Exercise                                  | Grade (1-6)
+Exercise                                  | Complete
 ----------------------------------------- | -------------
 Level 1 Talking To Yourself - Exercise 1  |
 Level 1 Talking To Yourself - Exercise 2  |
