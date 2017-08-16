@@ -6,6 +6,7 @@ Exercise                                  | Complete
 Level 1 Talking To Yourself - Exercise 1  |
 Level 1 Talking To Yourself - Exercise 2  |
 Level 2 Meet my friend DOM - Exercise 1   |
+Level 2 Meet my friend DOM - Exercise 2   |
 
 ## Why Javascript?
 With every action a user takes, Javascript can listen and track what happened or return new content. Just about anything you have in mind.
