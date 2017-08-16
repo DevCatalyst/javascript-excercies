@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Javascript 101 Exercises | Dev Catalyst</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="utf-8">
+  <title>Javascript 101 Exercises | Dev Catalyst</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- styles -->
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <style> body {padding-top: 40px; font-size:18px;} </style>
+  <!-- styles -->
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {padding-top: 40px; font-size:18px;}
+    .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+        z-index: 2;
+        color: #fff;
+        background-color: #444;
+        border-color: #444;
+    }
+  </style>
 
-  </head>
-  <body>
+</head>
+<body>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
 
-          <h1>Javascript 101 Exercises - Dev Catalyst</h1>
+        <h1>Javascript 101 Exercises - Dev Catalyst</h1>
 
-          <h2>Exercise pages</h2>
-          <ul>
-            <li>Level 1
-              <ul>
-                <li><a href="exercises/level-1/exercise-1.html">Exercise 1 - Accepting donations</a></li>
-                <li><a href="exercises/level-1/exercise-2.html">Exercise 2 - Showing customer review</a></li>
-              </ul>
-            </li>
-            <li>Level 2
-              <ul>
-                <li><a href="exercises/level-2/exercise-1.html">Exercise 1 - Add to the shopping list</a></li>
-                <li><a href="exercises/level-2/exercise-2.html">Exercise 2 - Remove from the shopping list</a></li>
-              </ul>
-            </li>
-          </ul>
-
+        <h2>Exercise pages</h2>
+        <div class="list-group">
+          <a class="list-group-item active">Level 1</a>
+          <a href="exercises/level-1/exercise-1.html" class="list-group-item"><i class="glyphicon glyphicon-link"></i> Exercise 1 - Accepting donations</a>
+          <a href="exercises/level-1/exercise-2.html" class="list-group-item"><i class="glyphicon glyphicon-link"></i> Exercise 2 - Showing customer review</a>
+          <a class="list-group-item active">Level 2</a>
+          <a href="exercises/level-2/exercise-1.html" class="list-group-item"><i class="glyphicon glyphicon-link"></i> Exercise 1 - Add to the shopping list</a>
+          <a href="exercises/level-2/exercise-2.html" class="list-group-item"><i class="glyphicon glyphicon-link"></i> Exercise 2 - Remove from the shopping list</a>
         </div>
+
       </div>
-    </div> <!-- /container -->
+    </div>
+  </div> <!-- /container -->
 
-    <footer>
-      <p class="text-center">&reg; Dev Catalyst</p>
-    </footer>
+  <footer>
+    <p class="text-center">&reg; Dev Catalyst</p>
+  </footer>
 
-    <!-- scripts -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- scripts -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  </body>
+</body>
 </html>
